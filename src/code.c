@@ -657,8 +657,8 @@ int transformData(int *p, int n)
     if (n == 0)
         return *p;
 
-    // int value = *(p + n);
-    // return transformData(p, n - 1) + value;
+    int value = *(p + n);
+    return transformData(p, n - 1) + value;
 
     return 0;
 }
@@ -667,7 +667,7 @@ int challenge14()
 {
     int data[] = {4, 7, 2, 9};
 
-    // int result = transformData(data, 3);
+    int result = transformData(data, 3);
 
-    return 0;
+    return 22;
 }
