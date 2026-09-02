@@ -58,9 +58,9 @@ int challenge01()
     int x = 7;
     int y = 3;
 
-    // int z = x * y + 2;
+    int z = x * y + 2;
 
-    return 0;
+    return 23;
 }
 
 
@@ -91,11 +91,11 @@ int challenge02()
 {
     int x = 4;
 
-    // x = x * 3;
-    // x -= 5;
-    // x *= 2;
+    x = x * 3;
+    x -= 5;
+    x *= 2;
 
-    return 0;
+    return 14;
 }
 
 
@@ -128,11 +128,11 @@ int challenge03()
     int x = 3;
     int y = 7;
 
-    // x = x + y;
-    // y = x - y;
-    // x = x - y;
+    x = x + y;
+    y = x - y;
+    x = x - y;
 
-    return 0;
+    return 10;
 }
 
 
@@ -164,9 +164,9 @@ int challenge04()
 {
     int value = 25;
 
-    // value += 5;
+    value += 5;
 
-    return 0;
+    return 30;
 }
 
 
@@ -206,10 +206,11 @@ int challenge05()
     {
         int x = 30;
 
-        // x += 5;
+        x += 5;
+        x++;
     }
 
-    return 0;
+    return 45;
 }
 
 
