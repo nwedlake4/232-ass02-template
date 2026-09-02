@@ -153,7 +153,7 @@ int challenge03()
 // 3. Inspect "value" in Variables.
 // 4. Step Over.
 // 5. Inspect value
-// 6. Return the sum of the final values.
+// 6. Return the sum of the values.
 //
 
 // ============================================================
@@ -389,10 +389,10 @@ int challenge09()
 {
     int values[] = {11, 22, 33, 44};
 
-    // int *p = values;
-    // int *q = p + 2;
+    int *p = values;
+    int *q = p + 2;
 
-    return 0;
+    return 33;
 }
 
 
@@ -442,10 +442,10 @@ int challenge10()
     int x = 5;
     int *p = &x;
 
-    // int **pp = &p;
-    // **pp = 42;
+    int **pp = &p;
+    **pp = 42;
 
-    return 0;
+    return 42;
 }
 
 
@@ -488,9 +488,9 @@ int challenge11()
 {
     int x = 7;
 
-    // int result = add(x, 5);
+    int result = add(x, 5);
 
-    return 0;
+    return 12;
 }
 
 
