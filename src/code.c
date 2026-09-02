@@ -166,7 +166,7 @@ int challenge04()
 
     value += 5;
 
-    return 10;
+    return 30;
 }
 
 
@@ -342,10 +342,10 @@ int challenge08()
 {
     int values[] = {10, 20, 30, 40, 50};
 
-    // int *p = values;
-    // int result = *(p + 3);
+    int *p = values;
+    int result = *(p + 3);
 
-    return 0;
+    return 40;
 }
 
 
